@@ -1,0 +1,12 @@
+1.	Downloaded individual income data in Washington, DC from Opportunity Atlas
+2.	In the excel file, using text-to-column function, I only sorted out the tract numbers in Washington, DC (neighborhood ending with Washington, DC)
+3.	Next, I downloaded incarceration data in Washington, DC from Opportunity Atlas 
+4.	Back to my excel, I used VLOOKUP function to import the incarceration data based on the tract numbers to my original excel sheet
+5.	Then, I also downloaded the household income data in Washington, DC from Opportunity Atlas
+6.	And again, I used VLOOKUP function to import the household income data based on the unique tract numbers to my original excel sheet
+7.	Then, I selected three columns of individual income, incarceration rate, and household income and clicked on data tab and data analysis icon (regression). I set my y input range to be my individual income column and x input range to be my incarceration rate and household income columns. Also, I checked the residuals box. 
+8.	Then, for the correlation analysis, I selected the individual income column and incarceration rate column and hit the data analysis (correlation). Then, I selected those two columns as my input range. 
+9.	For individual income and household income correlation, I followed the same step except that my input range was individual income and household income columns. 
+10.	For simple regression line graphs, first, I selected the individual income and incarceration columns and then on insert tab, I hit the scatter plot icon.
+11.	And under chart design I clicked add chart element and added trend line and axis titles. Then, I double-clicked the trend line to make it bold and checked box for display regression line equation and display R^2
+12.	And I did the same thing for the second simple regression line graph for individual income and household income except that I selected individual income and household income columns as my data
