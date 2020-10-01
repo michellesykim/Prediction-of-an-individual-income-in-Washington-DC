@@ -1,4 +1,4 @@
-# Prediction-of-an-individual-income-in-Washington-DC
+# Prediction-of-individual-income-in-Washington-DC
 This repository talks about the individual income regression model based on the incarceration rate and household income in Washington, DC.
 
 # Background Information
